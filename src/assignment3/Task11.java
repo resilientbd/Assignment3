@@ -32,6 +32,9 @@ public class Task11 {
         int num4= s.nextInt();
         
         System.out.print("Enter 5th Number : ");
+        
+        
+        
         int num5= s.nextInt();
         
         int sum = num1+num2+num3+num4+num5;
