@@ -9,6 +9,14 @@ package assignment3;
  *
  * @author Admin
  */
+import java.util.Scanner;
 public class Task12 {
+    public static void main(String[] args){
+        int num1 = 100;
+        Scanner s = new Scanner(System.in);
+       int result = (num1*(num1+1)/2);
+        System.out.println("All possitive number is : "+result);
+        
+    }
     
 }
