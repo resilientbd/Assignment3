@@ -32,9 +32,9 @@ public class Task32 {
     
     }
     
-    else if(Q==50){
+    else if(Q>50){
     
-        P = 1000/ 3 + ((Q*Q) / 1900);
+        P = 1000/ (3 + ((Q*Q) / 1900));
         System.out.println("the result number is : " + P);
     
     }
