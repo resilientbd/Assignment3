@@ -17,25 +17,26 @@ public class Task36 {
     
         Scanner scanner = new Scanner(System.in);
         
-        int grade_1, grade_2, grade_3, grade_4, credit_1, credit_2, credit_3, credit_4, GPA;
+        float grade_1, grade_2, grade_3, grade_4,  GPA;
+        int credit_1, credit_2, credit_3, credit_4;
         
        
         
         System.out.println("Enter the grade_1 number: ");
       
-        grade_1 = scanner.nextInt();
+        grade_1 = scanner.nextFloat();
         
         System.out.println("Enter the grade_2 number: ");
       
-        grade_2 = scanner.nextInt();
+        grade_2 = scanner.nextFloat();
         
         System.out.println("Enter the grade_3 number: ");
       
-        grade_3 = scanner.nextInt();
+        grade_3 = scanner.nextFloat();
         
         System.out.println("Enter the grade_4 number: ");
       
-        grade_4 = scanner.nextInt();
+        grade_4 = scanner.nextFloat();
         
         
         
