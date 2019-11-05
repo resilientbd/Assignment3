@@ -28,7 +28,7 @@ public class Task26 {
             System.out.println(" weekly Salary is : "+ tk);
         }
         else{
-            tk = 300 * hour + 8000;
+            tk = (300 * hour) + 8000;
             System.out.println(" weekly Salary is : "+ tk);
         }
         
