@@ -13,17 +13,45 @@ import java.util.Scanner;
  */
 public class Task35 {
     
-      public static void main(String[] args) {
+    public static void main (String[] args){
     
         Scanner scanner = new Scanner(System.in);
-
-        int number, result;
         
-        System.out.print("Enter the number of published articles for one writer = ");
-        number = scanner.nextInt();
+        int time;
         
-        result = number * 500;
-        System.out.println("Your Monthly fees is : "+ result);
+        System.out.print("Enter the time : ");
+        time = scanner.nextInt();
         
+        if(time>=0 && time<=3){
+            System.out.println("Patience is a virtue");
+        }
+        else if(time>=4&&time<=6){
+            System.out.println("Breakfast");
+        }
+        else if(time>=7&&time<=11){
+            System.out.println("Patience is a virtue");
+        }
+        else if(time>=12&&time<=13){
+            System.out.println("Lunch");
+        }
+        else if(time>=14&&time<=15){
+            System.out.println("Patience is a virtue");
+        }
+        else if(time>=16&&time<=17){
+            System.out.println("Snacks");
+        }
+        else if(time==18){
+            System.out.println("Patience is a virtue");
+        }
+        else if(time>=19&&time<=20){
+            System.out.println("Dinner");
+        }
+        else if(time>=21&&time<=23){
+            System.out.println("Patience is a virtue");
+        }
+        else{
+            System.out.println("Wrong Time");
+        }
     }
-}
+    
+    }
